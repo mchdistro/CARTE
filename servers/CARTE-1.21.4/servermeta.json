@@ -2,7 +2,7 @@
   "$schema": "file:///D:/Coding/Projects/mchlauncher/Distro/CARTE/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "CARTE (Minecraft 1.21.4)",
+    "name": "CARTE",
     "description": "Minecraft 1.21.4 (Fabric v0.19.3)",
     "icon": "https://github.com/mchdistro/CARTE/raw/main/server-icon.png",
     "address": "mc.gotiger.dev:20203",

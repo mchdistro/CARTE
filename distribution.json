@@ -9,7 +9,7 @@
   "servers": [
     {
       "id": "CARTE-1.21.4",
-      "name": "CARTE (Minecraft 1.21.4)",
+      "name": "CARTE",
       "description": "Minecraft 1.21.4 (Fabric v0.19.3)",
       "icon": "https://github.com/mchdistro/CARTE/raw/main/server-icon.png",
       "version": "1.0.0",
@@ -218,6 +218,17 @@
             "size": 5213,
             "url": "https://github.com/mchdistro/CARTE/raw/main/servers/CARTE-1.21.4/files/options.txt",
             "path": "options.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 76,
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/CARTE-1.21.4/files/servers.dat",
+            "MD5": "52c5aa24dbf3d616bad2a919cd20dbfa",
+            "path": "servers.dat"
           }
         }
       ]
