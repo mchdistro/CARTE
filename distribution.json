@@ -1,0 +1,226 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "CARTE-1.21.4",
+      "name": "CARTE (Minecraft 1.21.4)",
+      "description": "Minecraft 1.21.4 (Fabric v0.19.3)",
+      "icon": "https://github.com/mchdistro/CARTE/raw/main/server-icon.png",
+      "version": "1.0.0",
+      "address": "mc.gotiger.dev:20203",
+      "minecraftVersion": "1.21.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "javaOptions": {
+        "supported": "=>21",
+        "suggestedMajor": 21,
+        "platformOptions": [
+          {
+            "platform": "win32",
+            "architecture": "x64",
+            "distribution": "TEMURIN"
+          }
+        ],
+        "ram": {
+          "minimum": 4096,
+          "recommended": 8192
+        }
+      },
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.19.3",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1976502,
+            "MD5": "881e0e9f53a11b9ad468b47afd678bfd",
+            "url": "https://github.com/mchdistro/CARTE/raw/main/repo/lib/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.4-fabric-0.19.3",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2862,
+                "MD5": "5337988a408f6718579c4025116855e9",
+                "url": "https://github.com/mchdistro/CARTE/raw/main/repo/versions/1.21.4-fabric-0.19.3/1.21.4-fabric-0.19.3.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.10.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126151,
+                "MD5": "9cb72080438acf27f2607002e1444a7b",
+                "url": "https://github.com/mchdistro/CARTE/raw/main/repo/lib/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.10.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35140,
+                "MD5": "6dd9011ec87f65e4b2e14e938c4118e4",
+                "url": "https://github.com/mchdistro/CARTE/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.10.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74840,
+                "MD5": "8eee0b1bdd046baf472eb83dd5e6bb44",
+                "url": "https://github.com/mchdistro/CARTE/raw/main/repo/lib/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.10.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51958,
+                "MD5": "62541e1dc62331408ef31317555bf4fa",
+                "url": "https://github.com/mchdistro/CARTE/raw/main/repo/lib/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.10.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 95628,
+                "MD5": "d0892ecb209867805e7d2418e5dc6c42",
+                "url": "https://github.com/mchdistro/CARTE/raw/main/repo/lib/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.3+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1540060,
+                "MD5": "87002a5fc9faa1543bf4204f8d5876fb",
+                "url": "https://github.com/mchdistro/CARTE/raw/main/repo/lib/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 701826,
+                "MD5": "d0f4187a62328d4a95f3428434efbd48",
+                "url": "https://github.com/mchdistro/CARTE/raw/main/repo/lib/net/fabricmc/intermediary/1.21.4/intermediary-1.21.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "me.axieum.mcmod.authme.impl:authme:9.0.1+1.21.4@jar",
+          "name": "Auth Me",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 376047,
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/CARTE-1.21.4/fabricmods/required/authme-fabric-9.0.1+1.21.4.jar",
+            "MD5": "3c220399e5c34dae32224818c7acaa6c"
+          }
+        },
+        {
+          "id": "kr.shihyeon:blurserveraddress:1.2.0+mc1.21.2@jar",
+          "name": "BlurServerAddress",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 11418,
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/CARTE-1.21.4/fabricmods/required/blurserveraddress-fabric-1.2.0+mc1.21.2.jar",
+            "MD5": "1294fe12bfc2d2dbe8e4541c27873fd2"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.119.4+1.21.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2149128,
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/CARTE-1.21.4/fabricmods/required/fabric-api-0.119.4+1.21.4.jar",
+            "MD5": "128a8d042180e7c92567342e21a21a6d"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2682702,
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/CARTE-1.21.4/fabricmods/required/iris-fabric-1.8.8+mc1.21.4.jar",
+            "MD5": "59d373e4874efbcb8fb426bdefa588d9"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.21.4-6.0.0-beta.47@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3514383,
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/CARTE-1.21.4/fabricmods/required/journeymap-fabric-1.21.4-6.0.0-beta.47.jar",
+            "MD5": "8b092f8cca0a96d80eb8eeea24b5ebfd"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.9.6+mc1.21.3@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 655990,
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/CARTE-1.21.4/fabricmods/required/koreanpatch-fabric-1.9.6+mc1.21.3.jar",
+            "MD5": "c95329994b4cc793ec412462543c4f67"
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.1.13@jar",
+          "name": "Plasmo Voice",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 12327102,
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/CARTE-1.21.4/fabricmods/required/plasmovoice-fabric-1.21.4-2.1.13.jar",
+            "MD5": "1f59c4516dcb0dd6729a911eb5f6aa25"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1306799,
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/CARTE-1.21.4/fabricmods/required/sodium-fabric-0.6.13+mc1.21.4.jar",
+            "MD5": "28922a78d1876ee062e3265f10abcc46"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5213,
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/CARTE-1.21.4/files/options.txt",
+            "path": "options.txt"
+          }
+        }
+      ]
+    }
+  ]
+}
