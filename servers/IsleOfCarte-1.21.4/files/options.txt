@@ -15,7 +15,7 @@ prioritizeChunkUpdates:0
 fullscreen:false
 gamma:0.5
 graphicsMode:1
-guiScale:0
+guiScale:3
 maxFps:120
 inactivityFpsLimit:"afk"
 mipmapLevels:4
@@ -23,8 +23,8 @@ narrator:0
 particles:0
 reducedDebugInfo:false
 renderClouds:"true"
-renderDistance:12
-simulationDistance:12
+renderDistance:32
+simulationDistance:32
 screenEffectScale:1.0
 soundDevice:""
 autoJump:false
@@ -40,7 +40,7 @@ realmsNotifications:true
 showSubtitles:false
 directionalAudio:false
 touchscreen:false
-bobView:true
+bobView:false
 toggleCrouch:false
 toggleSprint:false
 darkMojangStudiosBackground:false
@@ -51,8 +51,8 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["fabric"]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","fabric"]
+incompatibleResourcePacks:["authme","koreanpatch"]
 lastServer:
 lang:ko_kr
 chatVisibility:0
@@ -132,8 +132,8 @@ key_key.journeymap.toggle_render_waypoints:key.keyboard.unknown
 key_key.journeymap.toggle_render_waypoints_world:key.keyboard.unknown
 key_key.journeymap.toggle_render_waypoints_map:key.keyboard.unknown
 key_key.journeymap.toggle_waypoints:key.keyboard.unknown
-key_key.journeymap.fullscreen_create_waypoint:key.keyboard.b
-key_key.journeymap.fullscreen_chat_position:key.keyboard.c
+key_key.journeymap.fullscreen_create_waypoint:key.keyboard.unknown
+key_key.journeymap.fullscreen_chat_position:key.keyboard.unknown
 key_key.journeymap.map_toggle_alt:key.keyboard.j
 key_key.journeymap.fullscreen_waypoints:key.keyboard.n
 key_key.journeymap.minimap_toggle_alt:key.keyboard.m
@@ -142,7 +142,7 @@ key_key.journeymap.fullscreen.north:key.keyboard.up
 key_key.journeymap.fullscreen.south:key.keyboard.down
 key_key.journeymap.fullscreen.east:key.keyboard.right
 key_key.journeymap.fullscreen.west:key.keyboard.left
-key_key.journeymap.fullscreen_follow_player:key.keyboard.f
+key_key.journeymap.fullscreen_follow_player:key.keyboard.unknown
 key_key.journeymap.fullscreen.disable_buttons:key.keyboard.unknown
 key_key.journeymap.toggle_entity_names:key.keyboard.g
 key_key.koreanpatch.toggle_langtype:key.keyboard.right.alt
@@ -150,9 +150,9 @@ key_key.koreanpatch.toggle_ime:key.keyboard.i
 key_key.plasmovoice.settings:key.keyboard.v
 key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.k
-key_iris.keybind.shaderPackSelection:key.keyboard.o
+key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_iris.keybind.wireframe:key.keyboard.unknown
-soundCategory_master:0.5093879346026491
+soundCategory_master:0.5
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

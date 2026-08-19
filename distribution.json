@@ -8,7 +8,7 @@
   },
   "servers": [
     {
-      "id": "CARTE-1.21.4",
+      "id": "IsleOfCarte-1.21.4",
       "name": "CARTE",
       "description": "Minecraft 1.21.4 (Fabric v0.19.3)",
       "icon": "https://github.com/mchdistro/CARTE/raw/main/server-icon.png",
@@ -136,7 +136,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 376047,
-            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/CARTE-1.21.4/fabricmods/required/authme-fabric-9.0.1+1.21.4.jar",
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/IsleOfCarte-1.21.4/fabricmods/required/authme-fabric-9.0.1+1.21.4.jar",
             "MD5": "3c220399e5c34dae32224818c7acaa6c"
           }
         },
@@ -146,7 +146,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 11418,
-            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/CARTE-1.21.4/fabricmods/required/blurserveraddress-fabric-1.2.0+mc1.21.2.jar",
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/IsleOfCarte-1.21.4/fabricmods/required/blurserveraddress-fabric-1.2.0+mc1.21.2.jar",
             "MD5": "1294fe12bfc2d2dbe8e4541c27873fd2"
           }
         },
@@ -156,8 +156,18 @@
           "type": "FabricMod",
           "artifact": {
             "size": 2149128,
-            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/CARTE-1.21.4/fabricmods/required/fabric-api-0.119.4+1.21.4.jar",
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/IsleOfCarte-1.21.4/fabricmods/required/fabric-api-0.119.4+1.21.4.jar",
             "MD5": "128a8d042180e7c92567342e21a21a6d"
+          }
+        },
+        {
+          "id": "com.gitter:gtnick:2.0.4@jar",
+          "name": "GTNick",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 108669,
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/IsleOfCarte-1.21.4/fabricmods/required/gtnick-fabric-1.21.4-2.0.4.jar",
+            "MD5": "80e97072385841f9cb3a9ffb8ee14ba7"
           }
         },
         {
@@ -166,7 +176,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 2682702,
-            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/CARTE-1.21.4/fabricmods/required/iris-fabric-1.8.8+mc1.21.4.jar",
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/IsleOfCarte-1.21.4/fabricmods/required/iris-fabric-1.8.8+mc1.21.4.jar",
             "MD5": "59d373e4874efbcb8fb426bdefa588d9"
           }
         },
@@ -176,7 +186,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 3514383,
-            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/CARTE-1.21.4/fabricmods/required/journeymap-fabric-1.21.4-6.0.0-beta.47.jar",
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/IsleOfCarte-1.21.4/fabricmods/required/journeymap-fabric-1.21.4-6.0.0-beta.47.jar",
             "MD5": "8b092f8cca0a96d80eb8eeea24b5ebfd"
           }
         },
@@ -186,7 +196,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 655990,
-            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/CARTE-1.21.4/fabricmods/required/koreanpatch-fabric-1.9.6+mc1.21.3.jar",
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/IsleOfCarte-1.21.4/fabricmods/required/koreanpatch-fabric-1.9.6+mc1.21.3.jar",
             "MD5": "c95329994b4cc793ec412462543c4f67"
           }
         },
@@ -196,7 +206,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 12327102,
-            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/CARTE-1.21.4/fabricmods/required/plasmovoice-fabric-1.21.4-2.1.13.jar",
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/IsleOfCarte-1.21.4/fabricmods/required/plasmovoice-fabric-1.21.4-2.1.13.jar",
             "MD5": "1f59c4516dcb0dd6729a911eb5f6aa25"
           }
         },
@@ -206,7 +216,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 1306799,
-            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/CARTE-1.21.4/fabricmods/required/sodium-fabric-0.6.13+mc1.21.4.jar",
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/IsleOfCarte-1.21.4/fabricmods/required/sodium-fabric-0.6.13+mc1.21.4.jar",
             "MD5": "28922a78d1876ee062e3265f10abcc46"
           }
         },
@@ -215,8 +225,8 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 5213,
-            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/CARTE-1.21.4/files/options.txt",
+            "size": 5255,
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/IsleOfCarte-1.21.4/files/options.txt",
             "path": "options.txt"
           }
         },
@@ -225,10 +235,21 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 76,
-            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/CARTE-1.21.4/files/servers.dat",
-            "MD5": "52c5aa24dbf3d616bad2a919cd20dbfa",
+            "size": 100,
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/IsleOfCarte-1.21.4/files/servers.dat",
+            "MD5": "a764851e1a47e0cbdf7e377af0207443",
             "path": "servers.dat"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.8.1.zip",
+          "name": "ComplementaryReimagined_r5.8.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 546925,
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/IsleOfCarte-1.21.4/files/shaderpacks/ComplementaryReimagined_r5.8.1.zip",
+            "MD5": "8dbb914ed233d6e8183ce34eb26beaab",
+            "path": "shaderpacks/ComplementaryReimagined_r5.8.1.zip"
           }
         }
       ]
