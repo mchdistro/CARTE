@@ -165,9 +165,9 @@
           "name": "GTNick",
           "type": "FabricMod",
           "artifact": {
-            "size": 108669,
+            "size": 109645,
             "url": "https://github.com/mchdistro/CARTE/raw/main/servers/IsleOfCarte-1.21.4/fabricmods/required/gtnick-fabric-1.21.4-2.0.4.jar",
-            "MD5": "80e97072385841f9cb3a9ffb8ee14ba7"
+            "MD5": "0bae23f2b78cfffe660e5263bcb30bda"
           }
         },
         {
@@ -201,13 +201,13 @@
           }
         },
         {
-          "id": "su.plo.voice:plasmovoice:2.1.13@jar",
+          "id": "su.plo.voice:plasmovoice:2.1.15@jar",
           "name": "Plasmo Voice",
           "type": "FabricMod",
           "artifact": {
-            "size": 12327102,
-            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/IsleOfCarte-1.21.4/fabricmods/required/plasmovoice-fabric-1.21.4-2.1.13.jar",
-            "MD5": "1f59c4516dcb0dd6729a911eb5f6aa25"
+            "size": 12353463,
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/IsleOfCarte-1.21.4/fabricmods/required/plasmovoice-fabric-1.21.4-2.1.15.jar",
+            "MD5": "82173d4e6636ab635c845d15cfc42eea"
           }
         },
         {
@@ -221,11 +221,21 @@
           }
         },
         {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 315,
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/IsleOfCarte-1.21.4/files/config/iris.properties",
+            "path": "config/iris.properties"
+          }
+        },
+        {
           "id": "options.txt",
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 5255,
+            "size": 5254,
             "url": "https://github.com/mchdistro/CARTE/raw/main/servers/IsleOfCarte-1.21.4/files/options.txt",
             "path": "options.txt"
           }
