@@ -2,7 +2,7 @@
   "$schema": "file:///D:/Coding/Projects/mchlauncher/Distro/CARTE/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "CARTE (Minecraft 26.2)",
+    "name": "방해 점프맵",
     "description": "Minecraft 26.2 (Fabric v0.20.1)",
     "icon": "https://github.com/mchdistro/CARTE/raw/main/server-icon.png",
     "address": "mc.gotiger.dev:20204",

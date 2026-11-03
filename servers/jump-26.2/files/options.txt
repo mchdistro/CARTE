@@ -1,0 +1,14 @@
+version:4903
+ao:true
+narrator:0
+lang:ko_kr
+tutorialStep:none
+skipMultiplayerWarning:true
+allowServerListing:true
+inGameNotification:false
+onlyShowSecureChat:false
+telemetryOptInExtra:false
+onboardAccessibility:false
+key_key.chat:key.keyboard.enter
+soundCategory_master:0.5
+soundCategory_music:0.0
