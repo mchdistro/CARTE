@@ -21,7 +21,7 @@
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
       "mainServer": true,
-      "autoconnect": false,
+      "autoconnect": true,
       "javaOptions": {
         "supported": ">=25.0.0",
         "suggestedMajor": 25,
@@ -122,6 +122,16 @@
             "size": 2566123,
             "url": "https://github.com/mchdistro/CARTE/raw/main/servers/jump-26.2/fabricmods/required/fabric-api-0.161.0+26.2.jar",
             "MD5": "e3f5660aa6ae0bdc4adc5a0a613d049d"
+          }
+        },
+        {
+          "id": "com.gitter:gtnick:2.0.4@jar",
+          "name": "GTNick",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 108627,
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/jump-26.2/fabricmods/required/gtnick-fabric-26.2-2.0.4.jar",
+            "MD5": "d7bdcf25c4906da4a8b8ef21b3c43fcb"
           }
         },
         {
