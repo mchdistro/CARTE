@@ -125,6 +125,16 @@
           }
         },
         {
+          "id": "com.gitter:gtnick:2.0.4@jar",
+          "name": "GTNick",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 122893,
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/jump-26.3/fabricmods/required/gtnick-fabric-26.3-2.0.4.jar",
+            "MD5": "4d08b7f81c3f6ba4e66135e4417b3798"
+          }
+        },
+        {
           "id": "dev.erudites.mods:koreanify:0.2.0+mc26.3@jar",
           "name": "Koreanify",
           "type": "FabricMod",
