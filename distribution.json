@@ -8,13 +8,13 @@
   },
   "servers": [
     {
-      "id": "jump-26.2",
+      "id": "jump-26.3",
       "name": "방해 점프맵",
-      "description": "Minecraft 26.2 (Fabric v0.20.1)",
+      "description": "Minecraft 26.3 (Fabric v0.20.1)",
       "icon": "https://github.com/mchdistro/CARTE/raw/main/server-icon.png",
       "version": "1.0.0",
       "address": "mc.gotiger.dev:20204",
-      "minecraftVersion": "26.2",
+      "minecraftVersion": "26.3",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -43,13 +43,13 @@
           },
           "subModules": [
             {
-              "id": "26.2-fabric-0.20.1",
+              "id": "26.3-fabric-0.20.1",
               "name": "Fabric (version.json)",
               "type": "VersionManifest",
               "artifact": {
                 "size": 2778,
-                "MD5": "ef23c02f514880c5512188e902874475",
-                "url": "https://github.com/mchdistro/CARTE/raw/main/repo/versions/26.2-fabric-0.20.1/26.2-fabric-0.20.1.json"
+                "MD5": "dad570752bce9e3cf9103385699e77c0",
+                "url": "https://github.com/mchdistro/CARTE/raw/main/repo/versions/26.3-fabric-0.20.1/26.3-fabric-0.20.1.json"
               }
             },
             {
@@ -115,54 +115,23 @@
           ]
         },
         {
-          "id": "generated.fabricmod:fabric-api:0.161.0+26.2@jar",
+          "id": "generated.fabricmod:fabric-api:0.166.2+26.3@jar",
           "name": "Fabric API",
           "type": "FabricMod",
           "artifact": {
-            "size": 2566123,
-            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/jump-26.2/fabricmods/required/fabric-api-0.161.0+26.2.jar",
-            "MD5": "e3f5660aa6ae0bdc4adc5a0a613d049d"
+            "size": 1797523,
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/jump-26.3/fabricmods/required/fabric-api-0.166.2+26.3.jar",
+            "MD5": "6e761f94379e46dc0fe03b49b063a386"
           }
         },
         {
-          "id": "com.gitter:gtnick:2.0.4@jar",
-          "name": "GTNick",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 108627,
-            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/jump-26.2/fabricmods/required/gtnick-fabric-26.2-2.0.4.jar",
-            "MD5": "d7bdcf25c4906da4a8b8ef21b3c43fcb"
-          }
-        },
-        {
-          "id": "dev.erudites.mods:koreanify:0.1.12+mc26.1.2@jar",
+          "id": "dev.erudites.mods:koreanify:0.2.0+mc26.3@jar",
           "name": "Koreanify",
           "type": "FabricMod",
           "artifact": {
-            "size": 88166,
-            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/jump-26.2/fabricmods/required/koreanify-fabric-0.1.12+mc26.1.2.jar",
-            "MD5": "e0063a7fe1df01990291a03b30cefbc3"
-          }
-        },
-        {
-          "id": "options.txt",
-          "name": "options.txt",
-          "type": "File",
-          "artifact": {
-            "size": 309,
-            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/jump-26.2/files/options.txt",
-            "path": "options.txt"
-          }
-        },
-        {
-          "id": "servers.dat",
-          "name": "servers.dat",
-          "type": "File",
-          "artifact": {
-            "size": 100,
-            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/jump-26.2/files/servers.dat",
-            "MD5": "857acbc5c068c02a583daebc189970bf",
-            "path": "servers.dat"
+            "size": 87896,
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/jump-26.3/fabricmods/required/koreanify-fabric-0.2.0+mc26.3.jar",
+            "MD5": "2cf599852581ec2367d4c4f014e9e0aa"
           }
         }
       ]
