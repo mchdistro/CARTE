@@ -115,6 +115,16 @@
           ]
         },
         {
+          "id": "me.axieum.mcmod.authme.impl:authme:9.3.0+26.3@jar",
+          "name": "Auth Me",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1539994,
+            "url": "https://github.com/mchdistro/CARTE/raw/main/servers/jump-26.3/fabricmods/required/authme-fabric-9.3.0+26.3.jar",
+            "MD5": "524fa0fa8309aa2e40d1aa802a18e4cd"
+          }
+        },
+        {
           "id": "generated.fabricmod:fabric-api:0.166.2+26.3@jar",
           "name": "Fabric API",
           "type": "FabricMod",
